@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/logo1.png" rel="icon">
+  <link href="assets/img/" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -40,10 +40,18 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top ">
+<header id="header" class="">
     <div class="container d-flex align-items-center justify-content-lg-between">
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <a href="index.html" class=""><img src="assets/img/logo1.png" style="width: 15%;" alt=""></a>
+      <i style="padding-left: 15%;" class="bi bi-telephone-fill"><a href="https://api.whatsapp.com/send?phone=6289635364993">+62 896-3536-4993</a></i>
+      <i class="bi bi-envelope-fill"><a href="mailto:info@incomarine.co.id">info@incomarine.co.id</a></i>
+    </div>
+</header><!-- End Header -->
 
-      <h1 class="logo me-auto me-lg-0"><a href="index.html"><img src="assets/img/logo1.png" alt=""></a></h1>
+<!--Header 2-->
+<header id="header2" class="sticky-header">
+    <div class="container d-flex align-items-center justify-content-lg-between">
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -56,9 +64,9 @@
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
-
     </div>
-  </header><!-- End Header -->
+</header>
+ <!--End Header 2-->
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center justify-content-center">
@@ -89,7 +97,7 @@
             <h2 class="fst-italic">Who Are We?</h2>
             <p>Welcome to Incomarine Shipyard, a trusted shipbuilding and repair company with a legacy of excellence. With our skilled workforce, advanced facilities, and adherence to quality, we offer comprehensive services for shipbuilding, repair, and maintenance. From commercial ships to naval vessels, we cater to diverse industries, ensuring superior craftsmanship and reliable solutions.</p>
             <p>Our strong client partnerships, commitment to sustainability, and global reputation make us the preferred choice in the maritime industry. Explore our website to learn more about our services and capabilities. We look forward to working with you for your maritime success.</p>
-            <a href="portfolio-details.html"><button class="btn btn-primary" type="submit">Learn More</button></a>
+            <a href="about.html"><button id="lernmor" class="btn">Learn More <i class="bi bi-arrow-right"></i></button></a>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
             <img src="assets/img/5.jpg" style="width: 100%; padding-left: 10%;" alt="">
@@ -158,7 +166,7 @@
 
         </div>
 
-      </div>
+      </div>  
     </section><!-- End Services Section -->
 
     <!-- ======= Contact Section ======= -->
@@ -171,7 +179,7 @@
         </div>
 
         <div>
-          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2740.3268976215327!2d104.00747984052872!3d1.184640596160311!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da27552b7c8dd7%3A0x937c7aad6a6f3185!2sJl.%20Bawal%2C%20Batu%20Merah%2C%20Kec.%20Batu%20Ampar%2C%20Kota%20Batam%2C%20Kepulauan%20Riau!5e0!3m2!1sid!2sid!4v1686639072451!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d853.1097563532761!2d104.00484326951312!3d1.1816663407454309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMcKwMTAnNTQuMCJOIDEwNMKwMDAnMTkuOCJF!5e1!3m2!1sid!2sid!4v1689061569190!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
         <div class="row mt-5">
@@ -189,7 +197,7 @@
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>info@incomarine.co.id</p>
+                <p>info@email.co.id</p>
               </div>
 
               <div class="phone">
@@ -244,14 +252,14 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
-              <h3>Gp<span>.</span></h3>
+              <img src="assets/img/logo1.png" style="width: 30%; padding-bottom: 5%;" alt="">
               <p>
                 Bawal Kav. 2-3, Batu Merah,
                 Batu Ampar<br>
                 Batam 29452,
                 Riau Islands, Indonesia.<br><br>
                 <strong>Phone:</strong> +62 822 8828 1948<br>
-                <strong>Email:</strong> info@incomarine.co.id<br>
+                <strong>Email:</strong> info@email.co.id<br>
               </p>
               <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -290,9 +298,8 @@
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
-
           </div>
-
+          
         </div>
       </div>
     </div>

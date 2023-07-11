@@ -123,8 +123,23 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
+  background: rgb(247, 247, 247);
+}
+
+#header2 {
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 10px 0;
   background: rgb(50, 51, 124);
 }
+
+.sticky-header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 999;
+}
+
 
 #header .logo {
   font-size: 32px;
@@ -182,6 +197,7 @@ h6 {
 */
 .navbar {
   padding: 0;
+  padding-left: 33%;
 }
 
 .navbar ul {
@@ -204,7 +220,7 @@ h6 {
   padding: 10px 0 10px 30px;
   font-size: 15px;
   font-weight: 600;
-  color: #fff;
+  color: rgb(255, 255, 255);
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -574,6 +590,15 @@ section {
   margin-bottom: 0;
 }
 
+#lernmor{
+  color: #5197ff;
+}
+
+#lernmor:hover{
+  color: #3b71c2;
+  background: #fdfdfd;
+}
+
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
@@ -810,7 +835,7 @@ section {
   padding: 15px 0;
   background: whitesmoke;
   min-height: 40px;
-  margin-top: 74px;
+  margin-top: 30px;
 }
 
 .breadcrumbs h2 {
